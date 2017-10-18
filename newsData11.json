@@ -1,0 +1,1882 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 124,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "northern Syrian city",
+      "relevance": 0.922564
+    },
+    {
+      "text": "jihadist rule",
+      "relevance": 0.781021
+    },
+    {
+      "text": "Raqqa A US-backed",
+      "relevance": 0.671466
+    },
+    {
+      "text": "alliance",
+      "relevance": 0.352902
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Syria",
+      "relevance": 0.886784,
+      "dbpedia_resource": "http://dbpedia.org/resource/Syria"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 139,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "mass killings",
+      "relevance": 0.919483
+    },
+    {
+      "text": "Indonesia",
+      "relevance": 0.76259
+    },
+    {
+      "text": "massacres",
+      "relevance": 0.648995
+    },
+    {
+      "text": "1960s",
+      "relevance": 0.620984
+    },
+    {
+      "text": "embassies",
+      "relevance": 0.601333
+    },
+    {
+      "text": "documents",
+      "relevance": 0.421119
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Mass murder",
+      "relevance": 0.852965,
+      "dbpedia_resource": "http://dbpedia.org/resource/Mass_murder"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 140,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "car brawl erupts",
+      "relevance": 0.921131
+    },
+    {
+      "text": "crash A fight",
+      "relevance": 0.593273
+    },
+    {
+      "text": "race track",
+      "relevance": 0.334435
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Auto racing",
+      "relevance": 0.937618,
+      "dbpedia_resource": "http://dbpedia.org/resource/Auto_racing"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 135,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "Daphne Caruana Galizia",
+      "relevance": 0.978006
+    },
+    {
+      "text": "Malta Malta",
+      "relevance": 0.79107
+    },
+    {
+      "text": "Dead journalist",
+      "relevance": 0.574913
+    },
+    {
+      "text": "corruption",
+      "relevance": 0.338581
+    },
+    {
+      "text": "son",
+      "relevance": 0.267788
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Gibraltar",
+      "relevance": 0.850712,
+      "dbpedia_resource": "http://dbpedia.org/resource/Gibraltar"
+    },
+    {
+      "text": "Malta national football team",
+      "relevance": 0.840507,
+      "dbpedia_resource": "http://dbpedia.org/resource/Malta_national_football_team"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 136,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "Man Booker prize",
+      "relevance": 0.95738
+    },
+    {
+      "text": "George Saunders",
+      "relevance": 0.563577
+    },
+    {
+      "text": "full-length novel",
+      "relevance": 0.53346
+    },
+    {
+      "text": "Bardo",
+      "relevance": 0.315522
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Man Booker Prize",
+      "relevance": 0.983723,
+      "dbpedia_resource": "http://dbpedia.org/resource/Man_Booker_Prize"
+    },
+    {
+      "text": "Salman Rushdie",
+      "relevance": 0.787179,
+      "dbpedia_resource": "http://dbpedia.org/resource/Salman_Rushdie"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 127,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "latest travel ban",
+      "relevance": 0.981257
+    },
+    {
+      "text": "maladies",
+      "relevance": 0.540244
+    },
+    {
+      "text": "Trump",
+      "relevance": 0.524676
+    },
+    {
+      "text": "predecessor",
+      "relevance": 0.494703
+    },
+    {
+      "text": "judge",
+      "relevance": 0.461917
+    },
+    {
+      "text": "order",
+      "relevance": 0.34929
+    },
+    {
+      "text": "policy",
+      "relevance": 0.347914
+    }
+  ],
+  "concepts": []
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 135,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "Weinstein Weinstein",
+      "relevance": 0.961871
+    },
+    {
+      "text": "Lena Headey",
+      "relevance": 0.777485
+    },
+    {
+      "text": "Thrones star",
+      "relevance": 0.687088
+    },
+    {
+      "text": "arm",
+      "relevance": 0.342177
+    },
+    {
+      "text": "Game",
+      "relevance": 0.256384
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Lena Headey",
+      "relevance": 0.94772,
+      "dbpedia_resource": "http://dbpedia.org/resource/Lena_Headey"
+    },
+    {
+      "text": "Game of Thrones",
+      "relevance": 0.646,
+      "dbpedia_resource": "http://dbpedia.org/resource/Game_of_Thrones_(TV_series)"
+    },
+    {
+      "text": "Terminator: The Sarah Connor Chronicles",
+      "relevance": 0.62776,
+      "dbpedia_resource": "http://dbpedia.org/resource/Terminator:_The_Sarah_Connor_Chronicles"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 142,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "global economic body",
+      "relevance": 0.91007
+    },
+    {
+      "text": "Brexit reversal",
+      "relevance": 0.726623
+    },
+    {
+      "text": "positive impact",
+      "relevance": 0.568995
+    },
+    {
+      "text": "OECD",
+      "relevance": 0.395932
+    },
+    {
+      "text": "EU",
+      "relevance": 0.349028
+    },
+    {
+      "text": "UK",
+      "relevance": 0.273484
+    },
+    {
+      "text": "growth",
+      "relevance": 0.266945
+    }
+  ],
+  "concepts": [
+    {
+      "text": "International trade",
+      "relevance": 0.905387,
+      "dbpedia_resource": "http://dbpedia.org/resource/International_trade"
+    },
+    {
+      "text": "European Union",
+      "relevance": 0.831817,
+      "dbpedia_resource": "http://dbpedia.org/resource/European_Union"
+    },
+    {
+      "text": "United Kingdom",
+      "relevance": 0.796128,
+      "dbpedia_resource": "http://dbpedia.org/resource/United_Kingdom"
+    },
+    {
+      "text": "Poland",
+      "relevance": 0.697163,
+      "dbpedia_resource": "http://dbpedia.org/resource/Poland"
+    },
+    {
+      "text": "Europe",
+      "relevance": 0.691069,
+      "dbpedia_resource": "http://dbpedia.org/resource/Europe"
+    },
+    {
+      "text": "Republic of Ireland",
+      "relevance": 0.665591,
+      "dbpedia_resource": "http://dbpedia.org/resource/Republic_of_Ireland"
+    },
+    {
+      "text": "Council of Europe",
+      "relevance": 0.651807,
+      "dbpedia_resource": "http://dbpedia.org/resource/Council_of_Europe"
+    },
+    {
+      "text": "Spain",
+      "relevance": 0.628267,
+      "dbpedia_resource": "http://dbpedia.org/resource/Spain"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 177,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "severe terror threat",
+      "relevance": 0.992817
+    },
+    {
+      "text": "MI5 chief Head",
+      "relevance": 0.963011
+    },
+    {
+      "text": "Islamist terrorism",
+      "relevance": 0.825256
+    },
+    {
+      "text": "intelligence service",
+      "relevance": 0.651914
+    },
+    {
+      "text": "‘dramatic upshift",
+      "relevance": 0.641131
+    },
+    {
+      "text": "attacks",
+      "relevance": 0.495922
+    },
+    {
+      "text": "UK",
+      "relevance": 0.439461
+    },
+    {
+      "text": "Britain",
+      "relevance": 0.436391
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Counter-terrorism",
+      "relevance": 0.95518,
+      "dbpedia_resource": "http://dbpedia.org/resource/Counter-terrorism"
+    },
+    {
+      "text": "Jihad",
+      "relevance": 0.845312,
+      "dbpedia_resource": "http://dbpedia.org/resource/Jihad"
+    },
+    {
+      "text": "Federal Bureau of Investigation",
+      "relevance": 0.749276,
+      "dbpedia_resource": "http://dbpedia.org/resource/Federal_Bureau_of_Investigation"
+    },
+    {
+      "text": "Secret Intelligence Service",
+      "relevance": 0.684501,
+      "dbpedia_resource": "http://dbpedia.org/resource/Secret_Intelligence_Service"
+    },
+    {
+      "text": "Provisional Irish Republican Army",
+      "relevance": 0.591797,
+      "dbpedia_resource": "http://dbpedia.org/resource/Provisional_Irish_Republican_Army"
+    },
+    {
+      "text": "Terrorism",
+      "relevance": 0.5607,
+      "dbpedia_resource": "http://dbpedia.org/resource/Terrorism"
+    },
+    {
+      "text": "Security agency",
+      "relevance": 0.560108,
+      "dbpedia_resource": "http://dbpedia.org/resource/Security_agency"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 184,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "Amber Rudd",
+      "relevance": 0.798315
+    },
+    {
+      "text": "no-deal Brexit",
+      "relevance": 0.526726
+    },
+    {
+      "text": "David Davis",
+      "relevance": 0.507169
+    },
+    {
+      "text": "agreement",
+      "relevance": 0.317255
+    },
+    {
+      "text": "Cabinet",
+      "relevance": 0.312124
+    },
+    {
+      "text": "idea",
+      "relevance": 0.308713
+    },
+    {
+      "text": "option",
+      "relevance": 0.297009
+    },
+    {
+      "text": "security",
+      "relevance": 0.255282
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Option",
+      "relevance": 0.893157,
+      "dbpedia_resource": "http://dbpedia.org/resource/Option_(finance)"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 167,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "Man Booker prize",
+      "relevance": 0.998541
+    },
+    {
+      "text": "row George Saunders",
+      "relevance": 0.975131
+    },
+    {
+      "text": "American author",
+      "relevance": 0.677107
+    },
+    {
+      "text": "Bardo",
+      "relevance": 0.570073
+    },
+    {
+      "text": "panel",
+      "relevance": 0.489563
+    },
+    {
+      "text": "Lincoln",
+      "relevance": 0.439929
+    },
+    {
+      "text": "head",
+      "relevance": 0.438128
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Man Booker Prize",
+      "relevance": 0.983723,
+      "dbpedia_resource": "http://dbpedia.org/resource/Man_Booker_Prize"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 142,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "social media backlash",
+      "relevance": 0.975975
+    },
+    {
+      "text": "controversy Retailers",
+      "relevance": 0.78984
+    },
+    {
+      "text": "Holocaust victim",
+      "relevance": 0.783264
+    },
+    {
+      "text": "Anne Frank",
+      "relevance": 0.646902
+    },
+    {
+      "text": "portrayal",
+      "relevance": 0.349604
+    },
+    {
+      "text": "outfit",
+      "relevance": 0.34616
+    },
+    {
+      "text": "costume",
+      "relevance": 0.304808
+    }
+  ],
+  "concepts": [
+    {
+      "text": "The Holocaust",
+      "relevance": 0.938227,
+      "dbpedia_resource": "http://dbpedia.org/resource/The_Holocaust"
+    },
+    {
+      "text": "Holocaust denial",
+      "relevance": 0.810892,
+      "dbpedia_resource": "http://dbpedia.org/resource/Holocaust_denial"
+    },
+    {
+      "text": "Holocaust victims",
+      "relevance": 0.766997,
+      "dbpedia_resource": "http://dbpedia.org/resource/Holocaust_victims"
+    },
+    {
+      "text": "Netherlands",
+      "relevance": 0.702828,
+      "dbpedia_resource": "http://dbpedia.org/resource/Netherlands"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 219,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "botched US-led operation",
+      "relevance": 0.930819
+    },
+    {
+      "text": "Somalia bombing",
+      "relevance": 0.652082
+    },
+    {
+      "text": "revenge",
+      "relevance": 0.39979
+    },
+    {
+      "text": "bomber",
+      "relevance": 0.247925
+    },
+    {
+      "text": "desire",
+      "relevance": 0.228261
+    },
+    {
+      "text": "raid",
+      "relevance": 0.223793
+    },
+    {
+      "text": "attack",
+      "relevance": 0.218814
+    },
+    {
+      "text": "Officials",
+      "relevance": 0.217433
+    }
+  ],
+  "concepts": [
+    {
+      "text": "English-language films",
+      "relevance": 0.890118,
+      "dbpedia_resource": "http://dbpedia.org/resource/English-language_films"
+    },
+    {
+      "text": "Bomber",
+      "relevance": 0.714,
+      "dbpedia_resource": "http://dbpedia.org/resource/Bomber"
+    },
+    {
+      "text": "American films",
+      "relevance": 0.672847,
+      "dbpedia_resource": "http://dbpedia.org/resource/American_films"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 227,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "six-week wait",
+      "relevance": 0.964015
+    },
+    {
+      "text": "advance payments",
+      "relevance": 0.844157
+    },
+    {
+      "text": "warnings Government",
+      "relevance": 0.803324
+    },
+    {
+      "text": "universal credit",
+      "relevance": 0.736083
+    },
+    {
+      "text": "rollout",
+      "relevance": 0.490548
+    },
+    {
+      "text": "MPs",
+      "relevance": 0.486858
+    },
+    {
+      "text": "delays",
+      "relevance": 0.466792
+    },
+    {
+      "text": "Labour",
+      "relevance": 0.441271
+    },
+    {
+      "text": "benefit",
+      "relevance": 0.414657
+    },
+    {
+      "text": "PM",
+      "relevance": 0.378369
+    },
+    {
+      "text": "problems",
+      "relevance": 0.373667
+    },
+    {
+      "text": "Tories",
+      "relevance": 0.372323
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Advance payment",
+      "relevance": 0.886784,
+      "dbpedia_resource": "http://dbpedia.org/resource/Advance_payment"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 243,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "Parsons Green tube",
+      "relevance": 0.978767
+    },
+    {
+      "text": "drug dealer",
+      "relevance": 0.771104
+    },
+    {
+      "text": "Omid Saidy",
+      "relevance": 0.705347
+    },
+    {
+      "text": "suspects",
+      "relevance": 0.2718
+    },
+    {
+      "text": "friend",
+      "relevance": 0.239123
+    },
+    {
+      "text": "man",
+      "relevance": 0.223976
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Wimbledon station",
+      "relevance": 0.906222,
+      "dbpedia_resource": "http://dbpedia.org/resource/Wimbledon_station"
+    },
+    {
+      "text": "Assassination",
+      "relevance": 0.87935,
+      "dbpedia_resource": "http://dbpedia.org/resource/Assassination"
+    },
+    {
+      "text": "Fulham Broadway tube station",
+      "relevance": 0.864,
+      "dbpedia_resource": "http://dbpedia.org/resource/Fulham_Broadway_tube_station"
+    },
+    {
+      "text": "Injuries",
+      "relevance": 0.855077,
+      "dbpedia_resource": "http://dbpedia.org/resource/Injuries"
+    },
+    {
+      "text": "Stabbing",
+      "relevance": 0.712,
+      "dbpedia_resource": "http://dbpedia.org/resource/Stabbing"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 195,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "Derrick Watson grants",
+      "relevance": 0.97273
+    },
+    {
+      "text": "Trump travel ban",
+      "relevance": 0.970896
+    },
+    {
+      "text": "Hawaii judge blocks",
+      "relevance": 0.873995
+    },
+    {
+      "text": "recent batch",
+      "relevance": 0.523785
+    },
+    {
+      "text": "latest version",
+      "relevance": 0.46781
+    },
+    {
+      "text": "state’s request",
+      "relevance": 0.459584
+    },
+    {
+      "text": "federal enforcement",
+      "relevance": 0.4541
+    },
+    {
+      "text": "restrictions",
+      "relevance": 0.334688
+    }
+  ],
+  "concepts": [
+    {
+      "text": "United States",
+      "relevance": 0.900882,
+      "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+    },
+    {
+      "text": "Most recent common ancestor",
+      "relevance": 0.70728,
+      "dbpedia_resource": "http://dbpedia.org/resource/Most_recent_common_ancestor"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 149,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "discounters Aldi",
+      "relevance": 0.93103
+    },
+    {
+      "text": "office roles",
+      "relevance": 0.733682
+    },
+    {
+      "text": "UK Store",
+      "relevance": 0.637371
+    },
+    {
+      "text": "price war",
+      "relevance": 0.614942
+    },
+    {
+      "text": "Sainsbury",
+      "relevance": 0.489996
+    },
+    {
+      "text": "Lidl",
+      "relevance": 0.48342
+    },
+    {
+      "text": "jobs",
+      "relevance": 0.268062
+    },
+    {
+      "text": "£500m",
+      "relevance": 0.26534
+    },
+    {
+      "text": "impact",
+      "relevance": 0.264597
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Supermarkets of the United Kingdom",
+      "relevance": 0.900977,
+      "dbpedia_resource": "http://dbpedia.org/resource/Supermarkets_of_the_United_Kingdom"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 258,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "sexual assault",
+      "relevance": 0.964649
+    },
+    {
+      "text": "Reese Witherspoon",
+      "relevance": 0.802083
+    },
+    {
+      "text": "incident",
+      "relevance": 0.540843
+    },
+    {
+      "text": "harassment",
+      "relevance": 0.53879
+    },
+    {
+      "text": "director",
+      "relevance": 0.4794
+    },
+    {
+      "text": "Actor",
+      "relevance": 0.478441
+    },
+    {
+      "text": "agents",
+      "relevance": 0.477866
+    },
+    {
+      "text": "producers",
+      "relevance": 0.477482
+    },
+    {
+      "text": "experiences",
+      "relevance": 0.47403
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Reese Witherspoon",
+      "relevance": 0.949819,
+      "dbpedia_resource": "http://dbpedia.org/resource/Reese_Witherspoon"
+    },
+    {
+      "text": "Teen Choice Award",
+      "relevance": 0.847994,
+      "dbpedia_resource": "http://dbpedia.org/resource/Teen_Choice_Award"
+    },
+    {
+      "text": "Cruel Intentions",
+      "relevance": 0.831169,
+      "dbpedia_resource": "http://dbpedia.org/resource/Cruel_Intentions"
+    },
+    {
+      "text": "Jake Gyllenhaal",
+      "relevance": 0.813646,
+      "dbpedia_resource": "http://dbpedia.org/resource/Jake_Gyllenhaal"
+    },
+    {
+      "text": "Legally Blonde 2: Red, White & Blonde",
+      "relevance": 0.799201,
+      "dbpedia_resource": "http://dbpedia.org/resource/Legally_Blonde_2:_Red,_White_&_Blonde"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 135,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "opioid drugs",
+      "relevance": 0.999331
+    },
+    {
+      "text": "drug czar",
+      "relevance": 0.935461
+    },
+    {
+      "text": "withdraws",
+      "relevance": 0.785521
+    },
+    {
+      "text": "congressman",
+      "relevance": 0.7508
+    },
+    {
+      "text": "Trump",
+      "relevance": 0.74204
+    },
+    {
+      "text": "efforts",
+      "relevance": 0.662267
+    },
+    {
+      "text": "flow",
+      "relevance": 0.589271
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Opioid",
+      "relevance": 0.95431,
+      "dbpedia_resource": "http://dbpedia.org/resource/Opioid"
+    },
+    {
+      "text": "Drug",
+      "relevance": 0.695955,
+      "dbpedia_resource": "http://dbpedia.org/resource/Drug"
+    },
+    {
+      "text": "Recreational drug use",
+      "relevance": 0.69497,
+      "dbpedia_resource": "http://dbpedia.org/resource/Recreational_drug_use"
+    },
+    {
+      "text": "Drug addiction",
+      "relevance": 0.667155,
+      "dbpedia_resource": "http://dbpedia.org/resource/Drug_addiction"
+    },
+    {
+      "text": "Psychoactive drug",
+      "relevance": 0.62353,
+      "dbpedia_resource": "http://dbpedia.org/resource/Psychoactive_drug"
+    },
+    {
+      "text": "Drugs",
+      "relevance": 0.51,
+      "dbpedia_resource": "http://dbpedia.org/resource/Drugs"
+    },
+    {
+      "text": "Pharmacology",
+      "relevance": 0.483097,
+      "dbpedia_resource": "http://dbpedia.org/resource/Pharmacology"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 188,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "Daphne Caruana Galizia",
+      "relevance": 0.994081
+    },
+    {
+      "text": "Maltese journalist",
+      "relevance": 0.720686
+    },
+    {
+      "text": "courageous journalism",
+      "relevance": 0.720491
+    },
+    {
+      "text": "final words",
+      "relevance": 0.542379
+    },
+    {
+      "text": "situation",
+      "relevance": 0.348499
+    },
+    {
+      "text": "enemies",
+      "relevance": 0.336933
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Journalism",
+      "relevance": 0.886784,
+      "dbpedia_resource": "http://dbpedia.org/resource/Journalism"
+    },
+    {
+      "text": "English-language films",
+      "relevance": 0.832705,
+      "dbpedia_resource": "http://dbpedia.org/resource/English-language_films"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 556,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "MI5 chief Britain",
+      "relevance": 0.949181
+    },
+    {
+      "text": "UK terror threat",
+      "relevance": 0.834734
+    },
+    {
+      "text": "Islamist extremists",
+      "relevance": 0.680105
+    },
+    {
+      "text": "murderous plots",
+      "relevance": 0.634063
+    },
+    {
+      "text": "terrorist offensive",
+      "relevance": 0.630422
+    },
+    {
+      "text": "successful bombings",
+      "relevance": 0.595698
+    },
+    {
+      "text": "high tempo",
+      "relevance": 0.565309
+    },
+    {
+      "text": "Andrew Parker",
+      "relevance": 0.546005
+    },
+    {
+      "text": "director general",
+      "relevance": 0.527339
+    },
+    {
+      "text": "Security Service",
+      "relevance": 0.519989
+    },
+    {
+      "text": "shootings",
+      "relevance": 0.391267
+    },
+    {
+      "text": "inception",
+      "relevance": 0.381847
+    },
+    {
+      "text": "pace",
+      "relevance": 0.372186
+    },
+    {
+      "text": "attack",
+      "relevance": 0.357936
+    },
+    {
+      "text": "scale",
+      "relevance": 0.341724
+    },
+    {
+      "text": "pool",
+      "relevance": 0.340338
+    },
+    {
+      "text": "point",
+      "relevance": 0.339515
+    },
+    {
+      "text": "head",
+      "relevance": 0.339298
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Provisional Irish Republican Army",
+      "relevance": 0.964689,
+      "dbpedia_resource": "http://dbpedia.org/resource/Provisional_Irish_Republican_Army"
+    },
+    {
+      "text": "Jihad",
+      "relevance": 0.842292,
+      "dbpedia_resource": "http://dbpedia.org/resource/Jihad"
+    },
+    {
+      "text": "Spooks",
+      "relevance": 0.805683,
+      "dbpedia_resource": "http://dbpedia.org/resource/Spooks"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 284,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "Amber Rudd comments",
+      "relevance": 0.957739
+    },
+    {
+      "text": "Brexit Amber Rudd",
+      "relevance": 0.918421
+    },
+    {
+      "text": "bad deal",
+      "relevance": 0.601001
+    },
+    {
+      "text": "Cabinet level",
+      "relevance": 0.551301
+    },
+    {
+      "text": "Brexit negotiations",
+      "relevance": 0.496063
+    },
+    {
+      "text": "rift",
+      "relevance": 0.31346
+    },
+    {
+      "text": "Theresa",
+      "relevance": 0.29622
+    }
+  ],
+  "concepts": []
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 435,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "Donald Trump",
+      "relevance": 0.980927
+    },
+    {
+      "text": "latest travel ban",
+      "relevance": 0.979448
+    },
+    {
+      "text": "Mr Trump",
+      "relevance": 0.888969
+    },
+    {
+      "text": "new executive order",
+      "relevance": 0.850797
+    },
+    {
+      "text": "federal judge",
+      "relevance": 0.657318
+    },
+    {
+      "text": "legal setbacks",
+      "relevance": 0.632024
+    },
+    {
+      "text": "travel bans",
+      "relevance": 0.591315
+    },
+    {
+      "text": "immigration agenda",
+      "relevance": 0.55537
+    },
+    {
+      "text": "North Korea",
+      "relevance": 0.472464
+    }
+  ],
+  "concepts": [
+    {
+      "text": "President of the United States",
+      "relevance": 0.961873,
+      "dbpedia_resource": "http://dbpedia.org/resource/President_of_the_United_States"
+    },
+    {
+      "text": "Arabic language",
+      "relevance": 0.782498,
+      "dbpedia_resource": "http://dbpedia.org/resource/Arabic_language"
+    },
+    {
+      "text": "Donald Trump",
+      "relevance": 0.73752,
+      "dbpedia_resource": "http://dbpedia.org/resource/Donald_Trump"
+    },
+    {
+      "text": "Iraq",
+      "relevance": 0.68724,
+      "dbpedia_resource": "http://dbpedia.org/resource/Iraq"
+    },
+    {
+      "text": "Organisation of the Islamic Conference members",
+      "relevance": 0.645251,
+      "dbpedia_resource": "http://dbpedia.org/resource/Organisation_of_the_Islamic_Conference_members"
+    },
+    {
+      "text": "Republic",
+      "relevance": 0.618532,
+      "dbpedia_resource": "http://dbpedia.org/resource/Republic"
+    },
+    {
+      "text": "Arabic-speaking countries",
+      "relevance": 0.537731,
+      "dbpedia_resource": "http://dbpedia.org/resource/Arabic-speaking_countries"
+    },
+    {
+      "text": "Miss Universe",
+      "relevance": 0.5361,
+      "dbpedia_resource": "http://dbpedia.org/resource/Miss_Universe"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 437,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "ancient egypt",
+      "relevance": 0.959928
+    },
+    {
+      "text": "paper Ancient Egypt",
+      "relevance": 0.878095
+    },
+    {
+      "text": "new study paints",
+      "relevance": 0.763675
+    },
+    {
+      "text": "new paper",
+      "relevance": 0.720524
+    },
+    {
+      "text": "spectacular reason",
+      "relevance": 0.655343
+    },
+    {
+      "text": "climate change",
+      "relevance": 0.596529
+    },
+    {
+      "text": "ancient civilisation",
+      "relevance": 0.576986
+    },
+    {
+      "text": "severe events",
+      "relevance": 0.576078
+    },
+    {
+      "text": "riots",
+      "relevance": 0.407512
+    },
+    {
+      "text": "droughts",
+      "relevance": 0.403196
+    },
+    {
+      "text": "volcanoes",
+      "relevance": 0.386137
+    },
+    {
+      "text": "shock",
+      "relevance": 0.379785
+    },
+    {
+      "text": "disasters",
+      "relevance": 0.371852
+    },
+    {
+      "text": "economy",
+      "relevance": 0.360498
+    },
+    {
+      "text": "stress",
+      "relevance": 0.356162
+    },
+    {
+      "text": "ability",
+      "relevance": 0.354983
+    },
+    {
+      "text": "picture",
+      "relevance": 0.342161
+    },
+    {
+      "text": "impact",
+      "relevance": 0.341977
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Ancient Egypt",
+      "relevance": 0.95874,
+      "dbpedia_resource": "http://dbpedia.org/resource/Ancient_Egypt"
+    },
+    {
+      "text": "Ancient history",
+      "relevance": 0.943774,
+      "dbpedia_resource": "http://dbpedia.org/resource/Ancient_history"
+    },
+    {
+      "text": "Ancient Near East",
+      "relevance": 0.704226,
+      "dbpedia_resource": "http://dbpedia.org/resource/Ancient_Near_East"
+    },
+    {
+      "text": "Mesopotamia",
+      "relevance": 0.619708,
+      "dbpedia_resource": "http://dbpedia.org/resource/Mesopotamia"
+    },
+    {
+      "text": "China",
+      "relevance": 0.608072,
+      "dbpedia_resource": "http://dbpedia.org/resource/China"
+    },
+    {
+      "text": "Civilization",
+      "relevance": 0.601015,
+      "dbpedia_resource": "http://dbpedia.org/resource/Civilization"
+    },
+    {
+      "text": "Ancient Rome",
+      "relevance": 0.588014,
+      "dbpedia_resource": "http://dbpedia.org/resource/Ancient_Rome"
+    },
+    {
+      "text": "Famine",
+      "relevance": 0.574499,
+      "dbpedia_resource": "http://dbpedia.org/resource/Famine"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 408,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "future trading agreement",
+      "relevance": 0.997694
+    },
+    {
+      "text": "David Davis",
+      "relevance": 0.966515
+    },
+    {
+      "text": "Brexit David Davis",
+      "relevance": 0.953795
+    },
+    {
+      "text": "transition phase",
+      "relevance": 0.809002
+    },
+    {
+      "text": "Conservative MP",
+      "relevance": 0.796894
+    },
+    {
+      "text": "final relationship",
+      "relevance": 0.740058
+    },
+    {
+      "text": "Brexit Secretary",
+      "relevance": 0.724197
+    },
+    {
+      "text": "permanent bridge",
+      "relevance": 0.711636
+    },
+    {
+      "text": "odds",
+      "relevance": 0.623262
+    },
+    {
+      "text": "deal",
+      "relevance": 0.596782
+    }
+  ],
+  "concepts": [
+    {
+      "text": "English-language films",
+      "relevance": 0.895474,
+      "dbpedia_resource": "http://dbpedia.org/resource/English-language_films"
+    },
+    {
+      "text": "American novels",
+      "relevance": 0.735644,
+      "dbpedia_resource": "http://dbpedia.org/resource/American_novels"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 353,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "Han Solo Star",
+      "relevance": 0.992601
+    },
+    {
+      "text": "director Ron Howard",
+      "relevance": 0.833507
+    },
+    {
+      "text": "Star Wars instalment",
+      "relevance": 0.813229
+    },
+    {
+      "text": "Wars spin-off",
+      "relevance": 0.620616
+    },
+    {
+      "text": "Mr Howard",
+      "relevance": 0.610221
+    },
+    {
+      "text": "iconic character",
+      "relevance": 0.598863
+    },
+    {
+      "text": "new details",
+      "relevance": 0.548024
+    },
+    {
+      "text": "upcoming film",
+      "relevance": 0.519326
+    },
+    {
+      "text": "Twitter",
+      "relevance": 0.390478
+    },
+    {
+      "text": "return",
+      "relevance": 0.368005
+    },
+    {
+      "text": "video",
+      "relevance": 0.335767
+    },
+    {
+      "text": "production",
+      "relevance": 0.333616
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Star Wars",
+      "relevance": 0.987029,
+      "dbpedia_resource": "http://dbpedia.org/resource/Star_Wars"
+    },
+    {
+      "text": "Han Solo",
+      "relevance": 0.929648,
+      "dbpedia_resource": "http://dbpedia.org/resource/Han_Solo"
+    },
+    {
+      "text": "Rebel Alliance",
+      "relevance": 0.759719,
+      "dbpedia_resource": "http://dbpedia.org/resource/Rebel_Alliance"
+    },
+    {
+      "text": "Star Wars Episode IV: A New Hope",
+      "relevance": 0.755799,
+      "dbpedia_resource": "http://dbpedia.org/resource/Star_Wars_Episode_IV:_A_New_Hope"
+    },
+    {
+      "text": "Harrison Ford",
+      "relevance": 0.749266,
+      "dbpedia_resource": "http://dbpedia.org/resource/Harrison_Ford"
+    },
+    {
+      "text": "Ron Howard",
+      "relevance": 0.718918,
+      "dbpedia_resource": "http://dbpedia.org/resource/Ron_Howard"
+    },
+    {
+      "text": "Obi-Wan Kenobi",
+      "relevance": 0.681929,
+      "dbpedia_resource": "http://dbpedia.org/resource/Obi-Wan_Kenobi"
+    },
+    {
+      "text": "Jabba the Hutt",
+      "relevance": 0.679698,
+      "dbpedia_resource": "http://dbpedia.org/resource/Jabba_the_Hutt"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 430,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "foam Storm Ophelia",
+      "relevance": 0.967161
+    },
+    {
+      "text": "certain rare phenomena",
+      "relevance": 0.698365
+    },
+    {
+      "text": "red sun",
+      "relevance": 0.354718
+    },
+    {
+      "text": "high winds",
+      "relevance": 0.349382
+    },
+    {
+      "text": "entire town",
+      "relevance": 0.337642
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Wind",
+      "relevance": 0.933487,
+      "dbpedia_resource": "http://dbpedia.org/resource/Wind"
+    },
+    {
+      "text": "Storm",
+      "relevance": 0.890479,
+      "dbpedia_resource": "http://dbpedia.org/resource/Storm"
+    },
+    {
+      "text": "Beaufort scale",
+      "relevance": 0.855147,
+      "dbpedia_resource": "http://dbpedia.org/resource/Beaufort_scale"
+    },
+    {
+      "text": "Tropical cyclone",
+      "relevance": 0.778817,
+      "dbpedia_resource": "http://dbpedia.org/resource/Tropical_cyclone"
+    },
+    {
+      "text": "Sky",
+      "relevance": 0.7476,
+      "dbpedia_resource": "http://dbpedia.org/resource/Sky"
+    },
+    {
+      "text": "Town",
+      "relevance": 0.72744,
+      "dbpedia_resource": "http://dbpedia.org/resource/Town"
+    },
+    {
+      "text": "Lancashire",
+      "relevance": 0.714,
+      "dbpedia_resource": "http://dbpedia.org/resource/Lancashire"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 454,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "Blitz spirit",
+      "relevance": 0.954822
+    },
+    {
+      "text": "Winston Churchill",
+      "relevance": 0.820551
+    },
+    {
+      "text": "bumpy road",
+      "relevance": 0.819537
+    },
+    {
+      "text": "secretary general",
+      "relevance": 0.765611
+    },
+    {
+      "text": "Economic Cooperation",
+      "relevance": 0.741932
+    },
+    {
+      "text": "UK Britain",
+      "relevance": 0.722785
+    },
+    {
+      "text": "Brexit process",
+      "relevance": 0.714897
+    },
+    {
+      "text": "government efforts",
+      "relevance": 0.709942
+    },
+    {
+      "text": "Angel Gurria",
+      "relevance": 0.703813
+    },
+    {
+      "text": "World War",
+      "relevance": 0.673498
+    },
+    {
+      "text": "OECD",
+      "relevance": 0.59164
+    },
+    {
+      "text": "morale",
+      "relevance": 0.37427
+    },
+    {
+      "text": "economist",
+      "relevance": 0.368376
+    },
+    {
+      "text": "challenges",
+      "relevance": 0.329717
+    },
+    {
+      "text": "Organisation",
+      "relevance": 0.281771
+    }
+  ],
+  "concepts": [
+    {
+      "text": "World War II",
+      "relevance": 0.95486,
+      "dbpedia_resource": "http://dbpedia.org/resource/World_War_II"
+    },
+    {
+      "text": "Battle of Britain",
+      "relevance": 0.626692,
+      "dbpedia_resource": "http://dbpedia.org/resource/Battle_of_Britain"
+    },
+    {
+      "text": "Winston Churchill",
+      "relevance": 0.60612,
+      "dbpedia_resource": "http://dbpedia.org/resource/Winston_Churchill"
+    },
+    {
+      "text": "British Empire",
+      "relevance": 0.556778,
+      "dbpedia_resource": "http://dbpedia.org/resource/British_Empire"
+    },
+    {
+      "text": "St Paul's Cathedral",
+      "relevance": 0.548043,
+      "dbpedia_resource": "http://dbpedia.org/resource/St_Paul's_Cathedral"
+    },
+    {
+      "text": "Battle of the Bulge",
+      "relevance": 0.495324,
+      "dbpedia_resource": "http://dbpedia.org/resource/Battle_of_the_Bulge"
+    },
+    {
+      "text": "Anthony Eden",
+      "relevance": 0.488011,
+      "dbpedia_resource": "http://dbpedia.org/resource/Anthony_Eden"
+    },
+    {
+      "text": "Management",
+      "relevance": 0.473108,
+      "dbpedia_resource": "http://dbpedia.org/resource/Management"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 283,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "Isis stronghold",
+      "relevance": 0.967527
+    },
+    {
+      "text": "four-month siege",
+      "relevance": 0.786794
+    },
+    {
+      "text": "hardship Kurdish",
+      "relevance": 0.779369
+    },
+    {
+      "text": "Arab fighters",
+      "relevance": 0.693935
+    },
+    {
+      "text": "civilians",
+      "relevance": 0.288966
+    },
+    {
+      "text": "Syria",
+      "relevance": 0.249925
+    },
+    {
+      "text": "flag",
+      "relevance": 0.244498
+    },
+    {
+      "text": "Raqqa",
+      "relevance": 0.238038
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Turkey",
+      "relevance": 0.935205,
+      "dbpedia_resource": "http://dbpedia.org/resource/Turkey"
+    },
+    {
+      "text": "Syria",
+      "relevance": 0.822568,
+      "dbpedia_resource": "http://dbpedia.org/resource/Syria"
+    },
+    {
+      "text": "Iraq",
+      "relevance": 0.815863,
+      "dbpedia_resource": "http://dbpedia.org/resource/Iraq"
+    },
+    {
+      "text": "United Kingdom",
+      "relevance": 0.779373,
+      "dbpedia_resource": "http://dbpedia.org/resource/United_Kingdom"
+    },
+    {
+      "text": "Morocco",
+      "relevance": 0.707145,
+      "dbpedia_resource": "http://dbpedia.org/resource/Morocco"
+    },
+    {
+      "text": "Lebanon",
+      "relevance": 0.674343,
+      "dbpedia_resource": "http://dbpedia.org/resource/Lebanon"
+    },
+    {
+      "text": "De facto",
+      "relevance": 0.644805,
+      "dbpedia_resource": "http://dbpedia.org/resource/De_facto"
+    },
+    {
+      "text": "Fertile Crescent",
+      "relevance": 0.601656,
+      "dbpedia_resource": "http://dbpedia.org/resource/Fertile_Crescent"
+    }
+  ]
+}{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 395,
+    "features": 2
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "extreme right events",
+      "relevance": 0.912436
+    },
+    {
+      "text": "Jewish heritage",
+      "relevance": 0.872179
+    },
+    {
+      "text": "Neo-Nazi leader",
+      "relevance": 0.786969
+    },
+    {
+      "text": "far-right views",
+      "relevance": 0.706538
+    },
+    {
+      "text": "high-profile figure",
+      "relevance": 0.653502
+    },
+    {
+      "text": "Kevin Wilshaw",
+      "relevance": 0.547969
+    },
+    {
+      "text": "organiser",
+      "relevance": 0.282239
+    },
+    {
+      "text": "National",
+      "relevance": 0.27131
+    },
+    {
+      "text": "racism",
+      "relevance": 0.265428
+    }
+  ],
+  "concepts": [
+    {
+      "text": "Nazism",
+      "relevance": 0.98818,
+      "dbpedia_resource": "http://dbpedia.org/resource/Nazism"
+    },
+    {
+      "text": "Fascism",
+      "relevance": 0.856347,
+      "dbpedia_resource": "http://dbpedia.org/resource/Fascism"
+    },
+    {
+      "text": "Far right",
+      "relevance": 0.81585,
+      "dbpedia_resource": "http://dbpedia.org/resource/Far_right"
+    },
+    {
+      "text": "Right-wing populism",
+      "relevance": 0.76545,
+      "dbpedia_resource": "http://dbpedia.org/resource/Right-wing_populism"
+    }
+  ]
+}

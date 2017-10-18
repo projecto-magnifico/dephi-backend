@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "projectUtils.js",
+  "scripts": {
+    "test": "mocha ./spec/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "combinatorial": "^1.0.3",
+    "fs": "0.0.1-security",
+    "fs-extra": "^4.0.2",
+    "mocha": "^4.0.1",
+    "power-set-x": "^1.5.0",
+    "underscore": "^1.8.3",
+    "watson-developer-cloud": "^2.40.0"
+  }
+}
