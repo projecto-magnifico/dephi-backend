@@ -29,7 +29,6 @@ const htmlToText = require('html-to-text');
 
 
 
-//prepareTopics();
 
 
 const prepareTopics = () => {
@@ -72,24 +71,28 @@ const prepareTopics = () => {
     ])
     .then(sources => {
         const mappedArticles = mapArticles(sources);
-        const graphedStories = graphStoryLinks(mappedArticles);
+        const graphedCodes = graphStoryLinks(mappedArticles);
+        const filteredCodes = filterOutOrphans(graphedCodes);
         const codedHeadlines = getCodedHeadlines(mappedArticles);
-        console.log(graphedStories)
-        fs.writeFileSync(path.join(__dirname, 'graphedStories.js'), JSON.stringify(graphedStories) + '\n\n');
-        fs.appendFileSync(path.join(__dirname, 'graphedStories.js'), JSON.stringify(codedHeadlines))
+        const code1 = Object.keys(filteredCodes)[0];
+        const groupedArticles = groupArticles(filteredCodes, mappedArticles, [code1]);
+
+        fs.writeFileSync(path.join(__dirname, 'groupedArticles.js'),JSON.stringify(groupedArticles) + '\n\n');
+        // fs.appendFileSync(path.join(__dirname, 'graphedStories.js'), JSON.stringify(codedHeadlines))
     })
     .catch(err => console.log(err));
 }
 
+prepareTopics();
 
 const mapArticles = sources => {
     const mappedSources = sources.map((source, sourceIndex) => {
         return source.data.articles.map((article, articleIndex) => {
             return Object.assign({}, article, {
-                code : sourceIndex * 10 + articleIndex,
+                code : (sourceIndex * 10 + articleIndex).toString(),
                 source : source.data.source,
                 score : source.data.articles.length - articleIndex,
-                age : 0
+                age : 0,
             })
         })
     })
@@ -130,32 +133,82 @@ const getHeadlineSimilarity = (article1, article2) => {
     return stringSimilarity.compareTwoStrings(article1.title, article2.title);
 }
 
-const collateCollections = titles => {
-    let collections = [];    
-    for(let i = 0; i < titles.length; i ++) {
-
-        collections.push({
-            comparative : titles[i],
-            similars : [],
-            weight : 0
-        })
-        
-        for(let j = i + 1; j < titles.length; j++) {
-            let scores = [];
-            scores.push(stringSimilarity.compareTwoStrings(collections[i].comparative, titles[j]));
-            collections[i].similars.forEach(hline => {
-                scores.push(stringSimilarity.compareTwoStrings(hline, titles[j]));
-            })
-            if (scores.some(score => score > threshhold) && scores.every(score => score < 1)) {
-                collections[i].similars.push(titles[j]);
-                collections[i].weight += 11 - (j % 10);
-            }
-        }
-        
-    }
-
-    const tops = collections.filter(comparison => comparison.similars.length > 0);
-    tops.sort((a, b) => b.weight - a.weight);
-
-    console.log('******************************************************\n', tops.slice(0,20))
+const filterOutOrphans = graph => {
+    const codes = Object.keys(graph);
+    const familyCodes = codes.filter(code => {
+        return graph[code].length > 0
+    })
+    
+    return familyCodes.reduce((acc, code) => {
+        acc[code] = graph[code];
+        return acc;
+    }, {});
 }
+
+const groupArticles = (graph, articles, queue, collections = {1: []}, iteration = 1, visited = []) => {
+    if (collections[iteration] === undefined) {
+        collections[iteration] = [];
+    }
+    //get next from queue
+    const code = queue[0];
+    //add code to visited
+    visited.push(code);
+    //push article to collections[iteration]
+    collections[iteration].push(articles[code]);
+    //concat graph[code] to queue
+    queue = queue.concat(graph[code]);
+    
+    //filter out those visited
+    queue = queue.filter(elem => {
+        return !visited.includes(elem);
+    });
+    
+    //if q is not empty
+    if (queue.length > 0) {
+    //call again with graph, articles, queue.slice(1), collections, iteration, visited
+        return groupArticles(graph, articles, queue, collections, iteration, visited);
+    } else {
+        visited.forEach(visit => {
+            delete graph[visit];
+        })
+        const newKeys = Object.keys(graph);
+        if (newKeys.length === 0) {
+            return collections;
+        } else {
+            const nextKey = newKeys[0];
+            return groupArticles(graph, articles, [nextKey], collections, iteration + 1, [])
+        }
+    }
+}
+
+
+// const search = (url, queue, visited, log, result) => {
+//     if (queue.length === 0) {
+//         return finalise(result, url, log)
+//     }
+
+//     let path = queue.shift();
+//     visited.push(path);
+//     let address = url + path;
+//     if (path !== '') address += '.html';
+
+//     https.get(address, data => {
+//         let dataStore = ''
+//         data.on('data', d => {
+//             dataStore += d;
+//         });
+//         data.on('end', () => {
+//             if (data.statusCode !== 200) {
+//                 console.log(path, 'is broken');
+//                 log[path] = address;
+//             } else {
+//                 console.log(path, 'works!');
+//                 let results = parse(dataStore);
+//                 results.forEach(result => {
+//                     if (!visited.includes(result) && (!queue.includes(result))) queue.push(result);
+//                 });
+//             } 
+//             return search(url, queue, visited, log, result)
+//         });
+//     });
+// }
