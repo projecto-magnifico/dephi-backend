@@ -27,3 +27,12 @@ const collateCollections = titles => {
 
     console.log('******************************************************\n', tops.slice(0,20))
 }
+
+
+
+const getCodedHeadlines = articles => {
+    return articles.reduce((acc, article) => {
+        acc = acc + `${article.code}: ${article.title}` + '\n';
+        return acc;
+    }, '');
+}

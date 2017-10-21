@@ -1,0 +1,89 @@
+{
+    "data": {
+        "status": "ok",
+        "source": "bbc-news",
+        "sortBy": "top",
+        "articles": [
+            {
+                "author": "BBC News",
+                "title": "Catalonia leaders decry direct rule plan",
+                "description": "President Carles Puigdemont says Catalonia will not accept Madrid's plan to curb region's powers.",
+                "url": "http://www.bbc.co.uk/news/world-europe-41710873",
+                "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p05kkvck.jpg",
+                "publishedAt": "2017-10-21T19:46:04Z"
+            },
+            {
+                "author": "BBC News",
+                "title": "Mugabe's WHO appointment 'an insult'",
+                "description": "The UK government, an array of campaign groups and the Zimbabwe opposition express dismay.",
+                "url": "http://www.bbc.co.uk/news/world-africa-41702662",
+                "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/141C2/production/_98407328_mediaitem98407326.jpg",
+                "publishedAt": "2017-10-21T12:37:24Z"
+            },
+            {
+                "author": "BBC News",
+                "title": "Cadets killed in Kabul minibus bombing",
+                "description": "It brings the death toll from attacks in Afghanistan to around 200 in this week alone.",
+                "url": "http://www.bbc.co.uk/news/world-asia-41708357",
+                "urlToImage": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/10E33/production/_98417196_mosque.jpg",
+                "publishedAt": "2017-10-21T17:33:14Z"
+            },
+            {
+                "author": "BBC News",
+                "title": "Trump to allow release of JFK files",
+                "description": "The US president says he will allow scheduled release of classified files relating to Kennedy's assassination.",
+                "url": "http://www.bbc.co.uk/news/world-us-canada-41708854",
+                "urlToImage": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/11991/production/_98418027_jfkfuneralgetty.jpg",
+                "publishedAt": "2017-10-21T16:09:36Z"
+            },
+            {
+                "author": "BBC News",
+                "title": "Can ballet help heal after a massacre?",
+                "description": "A new ballet tells the story of the aftermath of the racially motivated Charleston church shooting.",
+                "url": "http://www.bbc.co.uk/news/av/world-us-canada-41685592/ballet-hoping-to-help-heal-charleston-s-wounds",
+                "urlToImage": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/8CE6/production/_98407063_p05kj194.jpg",
+                "publishedAt": "2017-10-20T23:16:23Z"
+            },
+            {
+                "author": "BBC News",
+                "title": "Magazine apologises to Solange for editing image",
+                "description": "The Evening Standard has apologised to Solange Knowles after it altered her hairstyle on the front cover of its magazine.",
+                "url": "http://www.bbc.co.uk/newsbeat/articles/41707505",
+                "urlToImage": "http://ichef.bbci.co.uk/news/976/cpsprodpb/143A1/production/_98394828_5f8f556e-39a2-4587-b8a6-af4668cc2c59.jpg",
+                "publishedAt": null
+            },
+            {
+                "author": "BBC News",
+                "title": "Militants slaughter Egypt security forces",
+                "description": "The forces are reported to have been looking for the militants' hideout when they came under attack.",
+                "url": "http://www.bbc.co.uk/news/world-middle-east-41703303",
+                "urlToImage": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/0E60/production/_98408630_be1a43f8-4b80-440d-bd2c-098136dfa561.jpg",
+                "publishedAt": "2017-10-21T11:19:43Z"
+            },
+            {
+                "author": "BBC News",
+                "title": "Billionaire candidate wins Czech election",
+                "description": "Andrej Babis' party has secured almost triple the vote share of its closest rivals",
+                "url": "http://www.bbc.co.uk/news/world-europe-41708844",
+                "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/15677/production/_98417678_hi042522092.jpg",
+                "publishedAt": "2017-10-21T19:24:25Z"
+            },
+            {
+                "author": "BBC News",
+                "title": "Man arrested after knife attack in Munich",
+                "description": "Police say no motive has been established for the attack, which lightly wounded four passers-by.",
+                "url": "http://www.bbc.co.uk/news/world-europe-41705587",
+                "urlToImage": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/8A49/production/_98410453_mediaitem98410452.jpg",
+                "publishedAt": "2017-10-21T10:46:10Z"
+            },
+            {
+                "author": "BBC News",
+                "title": "Missing US hikers died in 'murder-suicide'",
+                "description": "Police suspect the man killed his girlfriend at Joshua Tree National Park before killing himself.",
+                "url": "http://www.bbc.co.uk/news/world-us-canada-41702369",
+                "urlToImage": "https://ichef-1.bbci.co.uk/news/1024/cpsprodpb/101A3/production/_97155956_10854303-23e2-4243-8d75-d7dcba250980.jpg",
+                "publishedAt": "2017-10-21T00:17:49Z"
+            }
+        ]
+    }
+}
