@@ -1170,37 +1170,20 @@ const terror2 =
   }
 ]
 
-function formatKeySet(arr) {
+//each story is an array of objects with contain a keyword and a relevance
 
-  return arr.map(word => word.text.toLowerCase());
-
-}
-
-function extractKeyWords(arr) {
-
-  return _.pluck(arr, "text").reduce((acc, str) => {
-    let words = str.toLowerCase().split(' ');
-    acc = acc.concat(words);
-    return acc;
-  }, [])
-
-}
-
-
-// console.log(getThread(arr1, arr2));
-// console.log(getThread(weds,thurs));
-// console.log(getThread(tues,weds));
-// console.log(getThread(tues,thurs));
-// console.log(getSets(["mogul","harvey","weinstein"]))
-
-
+ //a function which takes two stories and finds the intersection of their keywords
 const powerCompare = (arr1, arr2) => {
 
+ 
   let key1 = _.pluck(arr1, "text");
   let key2 = _.pluck(arr2, "text");
-
+  //we pluck out the text from each story and store them in two different arrays
+  // console.log(key1,"THIS IS THE KEY1")
   key1 = key1.map((str) => {
     let power1 = getSets(str.toLowerCase().split(' '))
+    //mapping over each string of keywords and getting all the different combinations of that string
+    //e.g. if 'new york city' is is passed into getSets then it return 'new', 'new york' , 'york city' etc...
       .map(str => str.join(' '));
     return power1;
   })
@@ -1211,23 +1194,11 @@ const powerCompare = (arr1, arr2) => {
     return power2;
   })
   return _.intersection(_.flatten(key1), _.flatten(key2))
-  // .filter(arr => {
-  //     return arr.length > 0;
-  // });
-}
-
-
-const filterIntersection = (arr, val) => {
-
-  return arr.filter(str => {
-    let bool = / {2,2}/.test(str);
-    return bool;
-  });
+  //we flatten nested arrays and find the intersection of all the keywords
 
 }
 
-console.log(powerCompare(terror1, terror2));
-
+//a function that should work for two arrays each with ten different stories
 const getStories = (arr1, arr2) => {
 
   stories = {};
@@ -1237,7 +1208,6 @@ const getStories = (arr1, arr2) => {
     arr2.forEach(story2 => {
 
       let thread = powerCompare(story1, story2);
-    
       if (powerCompare(story1, story2).length > 0) {
         stories[count] = thread;
         count++;
@@ -1248,23 +1218,17 @@ const getStories = (arr1, arr2) => {
   return stories;
 }
 
+// console.log(getStories(arr1, arr2));
+// console.log(getStories(weds,thurs));
+// console.log(getStories(tues,weds));
+// console.log(getStories(tues,thurs));
+// console.log(getSets(["mogul","harvey","weinstein"]))
+// console.log(powerCompare(terror1, terror2));
 // console.log(getStories(newsCall1,newsCall2));
-
-
 // console.log(powerCompare(["mogul","harvey","weinstein"],"producer harvey weinstein")) 
-// console.log(getThread(arr1, arr2));
-// console.log(getThread(tues, weds));
-// console.log(getThread(tues, thurs));
-// console.log(getThread(weds, thurs));
+// console.log(getStories(arr1, arr2));
+// console.log(getStories(tues, weds));
+// console.log(getStories(tues, thurs));
+// console.log(getStories(weds, thurs));
 
-
-function getIntersection(arr1, arr2) {
-
-  const arrWords1 = extractKeyWords(arr1);
-  const arrWords2 = extractKeyWords(arr2);
-  return _.intersection(arrWords1, arrWords2);
-
-}
-
-
-// console.log(getIntersectionTotal(arr1,arr2));
+module.exports = powerCompare;

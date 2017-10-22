@@ -1,8 +1,10 @@
 const {expect} = require("chai");
-const {formatKeySet,filterNews,getIntersection,arr1,arr2,tues,weds} = require("../relevance")
+const {grabKeywords,decayAllTopics,addKeywordsToThread,addStoriesToThread,topicThreadIntersection,processTopicAndThread,getNewScore} = require("../threadAnalysis.js")
 
 
-describe("formatKeySet" ,() => {
+
+
+describe("grabKeywords" ,() => {
     it("is a function" , () => {
         expect(formatKeySet).to.be.a("function");
     })
@@ -12,16 +14,5 @@ describe("formatKeySet" ,() => {
     })
     it("returns the correct element in the result" , () => {
         expect(formatKeySet(arr1)[0]).to.equal("melania trump");
-    })
-    
-})
-describe("getIntersection" ,() => {
-    it("is a function" , () => {
-        expect(getIntersection).to.be.a("function");
-    })
-    it("returns an array" , () => {
-        expect(getIntersection(tues,weds)).to.be.an("array");
-        expect(getIntersection(arr1,arr2)).to.be.an("array");
-        expect(getIntersection(tues,weds)[0]).to.be.a("string");
-    })
+    })  
 })
