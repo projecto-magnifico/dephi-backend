@@ -67,11 +67,10 @@ const prepareTopics = () => {
     .then(sources => {
         fs.writeFileSync(path.join(__dirname, 'spec', 'test_data.json'), JSON.stringify(sources[0].data));
         const mappedArticles = mapArticles(sources);
-        const graphedCodes = graphStoryLinks(mappedArticles);
-        const filteredCodes = filterOutOrphans(graphedCodes);
-        const code1 = Object.keys(filteredCodes)[0];
-        const groupedArticles = groupArticles(filteredCodes, mappedArticles, [code1]);
-
+        const graphedCodes = graphArticleLinks(mappedArticles);
+        const code1 = Object.keys(graphedCodes)[0];
+        const groupedArticles = groupArticles(graphedCodes, mappedArticles, [code1]);
+        console.log(groupedArticles);
         //fs.writeFileSync(path.join(__dirname, 'groupedArticles.js'),JSON.stringify(groupedArticles) + '\n\n');
         // fs.appendFileSync(path.join(__dirname, 'graphedStories.js'), JSON.stringify(codedHeadlines))
     })
@@ -80,26 +79,3 @@ const prepareTopics = () => {
 
 prepareTopics();
 
-const groupArticles = (graph, articles, queue, collections = {1: []}, iteration = 1, visited = []) => {
-    if (collections[iteration] === undefined) collections[iteration] = [];
-    
-    const code = queue[0];
-    visited.push(code);
-    collections[iteration].push(articles[code]);
-    queue = queue.concat(graph[code]);
-    
-    queue = queue.filter(elem => !visited.includes(elem));
-    
-    if (queue.length > 0) {
-        return groupArticles(graph, articles, queue, collections, iteration, visited);
-    } else {
-        visited.forEach(visit => delete graph[visit]);
-        const newKeys = Object.keys(graph);
-        if (newKeys.length === 0) {
-            return collections;
-        } else {
-            const nextKey = newKeys[0];
-            return groupArticles(graph, articles, [nextKey], collections, iteration + 1, [])
-        }
-    }
-}

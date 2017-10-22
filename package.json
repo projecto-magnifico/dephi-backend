@@ -11,6 +11,7 @@
   "dependencies": {
     "axios": "^0.16.2",
     "chai": "^4.1.2",
+    "express": "^4.16.2",
     "fs-extra": "^4.0.2",
     "html-to-text": "^3.3.0",
     "leven": "^2.1.0",
