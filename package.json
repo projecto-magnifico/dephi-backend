@@ -1,10 +1,12 @@
 {
-  "name": "project",
+  "name": "dephi-backend",    
   "version": "1.0.0",
   "description": "",
-  "main": "projectUtils.js",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha ./spec/*"
+    "test": "mocha ./spec/*",
+    "test-db": "psql -f ./data/seedTest.sql && NODE_ENV=test mocha ./spec/*",
+    "start": "NODE_ENV=test nodemon server.js"    
   },
   "author": "",
   "license": "ISC",
@@ -22,9 +24,19 @@
     "leven": "^2.1.0",
     "lodash": "^4.17.4",
     "mocha": "^4.0.1",
+    "pg-promise": "^7.0.3",    
     "power-set-x": "^1.5.0",
     "string-similarity": "^1.2.0",
+    "supertest": "^3.0.0",    
     "underscore": "^1.8.3",
     "watson-developer-cloud": "^2.40.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/projecto-magnifico/dephi-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/projecto-magnifico/dephi-backend/issues"
+  },
+  "homepage": "https://github.com/projecto-magnifico/dephi-backend#readme"
 }

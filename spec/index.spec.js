@@ -1,15 +1,18 @@
-const {expect} = require("chai");
-const {grabKeywords,decayAllTopics,addKeywordsToThread,addStoriesToThread,topicThreadIntersection,processTopicAndThread,getNewScore} = require("../threadAnalysis.js")
+NODE_ENV = 'test';
+const {expect} = require('chai');
+const supertest = require('supertest');
+const app = require('../index');
+const request = supertest(app);
 
-// describe("grabKeywords" ,() => {
-//     it("is a function" , () => {
-//         // expect(formatKeySet).to.be.a("function");
-//     })
-//     it("returns an array of the same length" , () => {
-//         expect(formatKeySet(arr1).length).to.equal(7);
-//         expect(formatKeySet(arr2).length).to.equal(arr2.length);
-//     })
-//     it("returns the correct element in the result" , () => {
-//         expect(formatKeySet(arr1)[0]).to.equal("melania trump");
-//     })  
-// })
+describe('Get Thread', () => {
+    let response;
+    before(() => {
+        return request
+        .get('/threads')
+        .then(res => response = res);
+    });
+
+    it('responds with 200 statusCode', () => {
+        expect(response.statusCode).to.equal(200);
+    });
+});
