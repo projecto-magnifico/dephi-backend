@@ -2,7 +2,7 @@ const { expect } = require('chai');
 const fs = require('fs');
 const path = require('path');
 
-const {mapArticles, graphArticleLinks, groupArticles} = require('../utils');
+const {mapArticles, graphArticleLinks, groupArticles} = require('../utils/createTopics');
 const {getStringSimilarity} = require('../helpers');
 
 describe('post-API call untility & processing functions', () => {

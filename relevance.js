@@ -6,7 +6,7 @@ const {
   getSets,
   zeroFiller,
   nullArray
-} = require("./helpers.js")
+} = require("./helpers")
 
 const arr1 = [{
     "text": "Melania Trump",

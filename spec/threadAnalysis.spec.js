@@ -182,16 +182,16 @@ const thread =
 
 
 
-describe.only("processing TOPICS", () => {
+describe("processing TOPICS", () => {
     describe("grabKeywords", () => {
         it("is a function", () => {
             expect(grabKeywords).to.be.a("function");
         })
     })
-    xdescribe("decayAllTopics", () => {
-        it("is a function", () => {
-            expect(decayAllTopics).to.be.a("function");
-        })
+    // describe("decayAllTopics", () => {
+    //     it("is a function", () => {
+    //         expect(decayAllTopics).to.be.a("function");
+    //     })
         // it("decays all topics", () => {
         //     expect(_.pluck(thread.keywords, "relevance")[0] > 0).to.equal(true);
         //     decayAllTopics(thread, -1);
@@ -225,32 +225,20 @@ describe.only("processing TOPICS", () => {
         it("is a function", () => {
             expect(processTopicAndThread).to.be.a("function");
         })
-        it("it changes the length of the topic keywords", () => {
-            expect(thread.keywords.length).to.not.equal(oldLength);
-        })
+
         it("it changes the length of the stories arrays", () => {
 
             expect(thread.keywords.length).to.not.equal(5);
         })
-        it("it changes the length of the stories arrays", () => {
-
-            expect(thread.keywords.length).to.not.equal(5);
-        })
-        it("it changes the length of the stories arrays", () => {
-            const newRelevance = grabRelevanceByKeyword(thread,"kabul");
-            expect(newRelevance).to.equal(oldRelevance*100);
-        })
-
     })
 
-    xdescribe("getNewScore", () => {
-        it("is a function", () => {
-            expect(getNewScore).to.be.a("function");
-        })
-        it("changes the topic score after being called", () => {
-            expect(thread.score).to.equal(22);
-            getNewScore(topic, thread);
-            expect(thread.stories.length).to.equal(5);
-        })
-    })
-})
+    // describe("getNewScore", () => {
+    //     it("is a function", () => {
+    //         expect(getNewScore).to.be.a("function");
+    //     })
+    //     it("changes the topic score after being called", () => {
+    //         expect(thread.score).to.equal(22);
+    //         getNewScore(topic, thread);
+    //         expect(thread.stories.length).to.equal(5);
+    //     })
+    // })

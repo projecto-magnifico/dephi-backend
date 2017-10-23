@@ -2,12 +2,7 @@ const axios = require('axios');
 const _ = require('underscore');
 const fs = require('fs-extra');
 
-const NaturalLanguageUnderstandingV1 = require('watson-developer-cloud/natural-language-understanding/v1.js');
-var nlu = new NaturalLanguageUnderstandingV1({
-    username: '9dcbde29-933b-4955-aa18-025681cee1da',
-    password: '1ns5rCS5KK1x',
-    version_date: NaturalLanguageUnderstandingV1.VERSION_DATE_2017_02_27
-})
+
 
 // nlu.analyze({
 //     'html': ,
@@ -200,52 +195,7 @@ const data3 =
         "assigned": false
     }]
 
-const grabStoryInfo = (stories) => {
 
-    let storiesInfo = {
-        storiesString: "",
-        totalScore: 0
-    }
-
-    return stories.reduce((acc, currentStory, i) => {
-
-        let currentTitle = currentStory.title;
-        let currentDescription = currentStory.description;
-        acc.storiesString += `${currentTitle} ${currentDescription}`;
-        acc.totalScore += currentStory.score;
-        return acc;
-    }, storiesInfo);
-}
-
-const getTopicsObject = (stories) => {
-
-    let text = grabStoryInfo(stories).storiesString;
-    let score = grabStoryInfo(stories).totalScore;
-
-    nlu.analyze({
-        'html': text,
-        'features': {
-            'concepts': {},
-            'keywords': {}
-        }
-    }, function (err, response) {
-
-        if (err) throw err;
-
-        let keywords = response.keywords;
-        let concepts = response.concepts;
-        let topicsObject =
-            {
-                stories: stories,
-                keywords: keywords,
-                score: score
-            };
-        console.log(topicsObject);
-        fs.appendFile('./threads3.json', JSON.stringify(topicsObject, null, 2), "utf8", (err) => {
-            if (err) throw err;
-        })
-    })
-}
 // grabStoryInfo(data);
 // getTopicsObject(data3);
 
