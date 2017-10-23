@@ -14,7 +14,7 @@ const decayAllTopics = (thread, decay) => {
         let newRelevance = keyword.relevance * decay;
         newRelevance = newRelevance.toFixed(6);
         keyword.relevance = newRelevance;
-     
+
     })
 }
 
@@ -25,27 +25,26 @@ const addKeywordsToThread = (topic, thread, intersection, boost) => {
     for (let i = 0; i < topicKeywords.length; i++) {
         let currentKeywordObject = topicKeywords[i];
         let currentTopicKeyword = topicKeywords[i].text.toLowerCase();
-        
+
         if (_.contains(intersection, currentTopicKeyword)) {
             let threadObjects = grabKeywords(thread);
-            
+
             for (let i = 0; i < threadObjects.length; i++) {
-            
+
                 if (threadObjects[i].text.toLowerCase().includes(currentTopicKeyword)) {
                     let newRelevance = currentKeywordObject.relevance * boost;
                     newRelevance = newRelevance.toFixed(6);
                     threadObjects[i].relevance = Number(newRelevance);
                 }
-            }  
+            }
         } else {
-            thread.keywords.push(currentKeywordObject);
-
+            thread.keywords.push(currentKeywordObject)
         }
     }
-return thread;
+    return thread;
 }
 
-const addStoriesToThread = (topic,thread) => {
+const addStoriesToThread = (topic, thread) => {
     thread.stories.push(topic.stories);
 }
 
@@ -57,31 +56,47 @@ const topicThreadIntersection = (topic, thread) => {
     return intersection;
 }
 
-const processTopicAndThread = (thread,topic,boost,decay) => {
-    //grab intersection of the keywords;
-    let intersection = topicThreadIntersection(thread,topic);
-    console.log(intersection);
-    //boost all the common keywords in the topic and add them to the thread
-    addKeywordsToThread(thread,topic,intersection,1.3);
-    //add all the stories to the thread
-    addStoriesToThread(topic, thread)
-    //decay all the relevances
-    decayAllTopics(thread,0.9)
-    //recalculate the thread score
-    getNewScore(topic,thread);
+const compareTopicsAndThread = (topics,thread) => {
+
+    const result = [];
+    
+    for (let i = 0; i < topics.length; i++) {
+        for (let j = 0; j < thread.length; j++) {
+            let link = [];
+            let inter = topicThreadIntersection(thread, topic);
+            if (inter.length > 5) {
+                link.push(i);
+                link.push(j);
+            }
+            result.push(link);
+        }
+    }
 }
 
-const getNewScore = (topic,thread) => {
+const processTopicAndThread = (thread, topic) => {
+    
+    
+}
+
+const getNewScore = (topic, thread) => {
     thread.score += topic.score;
 }
 
-const grabRelevanceByKeyword = (thread,keyword) => {
-   
+const grabRelevanceByKeyword = (thread, keyword) => {
+    
     for (let i = 0; i < thread.keywords.length; i++) {
         if (thread.keywords[i].text === keyword) {
             return thread.keywords[i].relevance;
         }
     }
 }
- 
-module.exports = {grabKeywords,decayAllTopics,addKeywordsToThread,addStoriesToThread,topicThreadIntersection,processTopicAndThread,getNewScore,grabRelevanceByKeyword}
+
+// addKeywordsToThread(thread, topic, intersection, 1.3);
+// //add all the stories to the thread
+// addStoriesToThread(topic, thread);
+// //decay all the relevances
+// decayAllTopics(thread, 0.9);
+// //recalculate the thread score
+// getNewScore(topic, thread);
+
+module.exports = { grabKeywords, decayAllTopics, addKeywordsToThread, addStoriesToThread, topicThreadIntersection, processTopicAndThread, getNewScore, grabRelevanceByKeyword }

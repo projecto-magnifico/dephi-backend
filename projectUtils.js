@@ -247,5 +247,5 @@ const getTopicsObject = (stories) => {
     })
 }
 // grabStoryInfo(data);
-getTopicsObject(data3);
+// getTopicsObject(data3);
 

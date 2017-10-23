@@ -192,11 +192,11 @@ describe.only("processing TOPICS", () => {
         it("is a function", () => {
             expect(decayAllTopics).to.be.a("function");
         })
-        it("decays all topics", () => {
-            expect(_.pluck(thread.keywords, "relevance")[0] > 0).to.equal(true);
-            decayAllTopics(thread, -1);
-            expect(_.pluck(thread.keywords, "relevance")[0] < 0).to.equal(true);
-        })
+        // it("decays all topics", () => {
+        //     expect(_.pluck(thread.keywords, "relevance")[0] > 0).to.equal(true);
+        //     decayAllTopics(thread, -1);
+        //     expect(_.pluck(thread.keywords, "relevance")[0] < 0).to.equal(true);
+        // })
 
     })
     describe("addKeywordsToThread", () => {
