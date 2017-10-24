@@ -1,38 +1,39 @@
 const {
     arrSieve,
     decimalToBinary,
-    zeroFiller
+    zeroFiller,
+    getSets
 } = require('../helpers');
 
-const getSets = keyword => {
-
-    const splitKeywords = keyword.split(' ');
-    let keywordSetArray = [];
-    let n = splitKeywords.length;
-    let maxLength = Math.pow(2, n) - 1;
-    let count = 0;
-    while (count !== maxLength + 1) {
-        let currentIndexArray = decimalToBinary(count);
-        let filledArray = zeroFiller(currentIndexArray, splitKeywords);
-        let currentItem = arrSieve(splitKeywords, filledArray);
-        keywordSetArray.push(currentItem);
-        count++;
-    }
-    const joinedKeywordSetArray = keywordSetArray.slice(1).map(keywordSet => {
-        return keywordSet.join(' ');
+const getKeywordSets = (topicsKeywords) => {
+    const keywordSets = topicsKeywords.map(topicKeywords => {
+        const keywordsRelevanceArray = topicKeywords.map(topicKeyword => {
+            let topicKeywordArray = getSets(topicKeyword.text);
+            const splitKeywordsWithRelevance = topicKeywordArray.map(topicKeywordWord => {
+                return {
+                    text : topicKeywordWord,
+                    relevance : topicKeywordWord === topicKeyword.text ? topicKeyword.relevance : topicKeyword.relevance / 2
+                };
+            });
+            return splitKeywordsWithRelevance;
+        });
+        return _.flatten(keywordsRelevanceArray);
     });
+    return keywordSets;
+}
 
-    return joinedKeywordSetArray;
-    //return finalResult.map(array => array.join(' '));
-};
+const formulateInsertionSchema = (keywordSets) => {
+    let insertionSchema = [];
+    keywordSets.forEach((topicKeywords,i) => {
+        threadTextAndId2.forEach((threadKeywords) => {
+            let topicKeywordsText = _.pluck(topicKeywords,'text');
+            let threadKeywordsText = _.pluck(threadKeywords,'text');
+            let intersection = _.intersection(topicKeywordsText,threadKeywordsText);
+            if (intersection.length > 3) {
+                insertionSchema.push([i , threadKeywords[0].id]);
+            }
+        });
+    });
+}
 
-const grabRelevanceByKeyword = (thread, keyword) => {
-
-    for (let i = 0; i < thread.keywords.length; i++) {
-        if (thread.keywords[i].text === keyword) {
-            return thread.keywords[i].relevance;
-        }
-    }
-};
-
-module.exports = { grabRelevanceByKeyword, getSets };
+module.exports = { getKeywordSets };
