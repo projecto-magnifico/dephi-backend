@@ -11,8 +11,8 @@ CREATE TABLE threads (
 
 CREATE TABLE keywords (
     keyword_id SERIAL PRIMARY KEY,
+    word VARCHAR NOT NULL,
     thread_id INT NOT NULL,
-    reference VARCHAR NOT NULL,
     strength DECIMAL NOT NULL,
     FOREIGN KEY (thread_id) REFERENCES threads(thread_id)
 );
@@ -38,7 +38,7 @@ CREATE TABLE articles (
 
 INSERT INTO threads (score) VALUES (10), (8.1), (6.5), (2.8), (1.1);
 
-INSERT INTO keywords (thread_id, reference, strength) VALUES
+INSERT INTO keywords (thread_id, word, strength) VALUES
 (1, 'death', 1.3),
 (1, 'man', 1.1),
 (2, 'storm', 1.8),
@@ -47,7 +47,6 @@ INSERT INTO keywords (thread_id, reference, strength) VALUES
 (3, 'meal', 1),
 (4, 'monkey', 1.5),
 (5, 'river', 1.9);
-
 
 INSERT INTO sources (name, logo_url) VALUES ('bbc', 'bbc logo URL'), ('cnn', 'cnn logo URL'), ('al-j', 'aljlogourl'), ('abcAus', 'abcauslogourl');
 
