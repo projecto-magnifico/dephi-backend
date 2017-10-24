@@ -11,7 +11,7 @@ const getThreads = (req, res) => {
 const insertNewThread = (req, res) => {
     db.one('INSERT INTO threads (score) VALUES ($1) returning *', req.body.score)
         .then(row => {
-            res.status(201).send(row)
+            res.status(201).send(row);
         })
         .catch(err => res.send(err));  
 }
