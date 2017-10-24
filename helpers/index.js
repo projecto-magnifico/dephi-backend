@@ -1,23 +1,22 @@
 const getSets = keyword => {
-    
-        const splitKeywords = keyword.split(' ');
-        let keywordSetArray = [];
-        let n = splitKeywords.length;
-        let maxLength = Math.pow(2, n) - 1;
-        let count = 0;
-        while (count !== maxLength + 1) {
-            let currentIndexArray = decimalToBinary(count);
-            let filledArray = zeroFiller(currentIndexArray, splitKeywords);
-            let currentItem = arrSieve(splitKeywords, filledArray);
-            keywordSetArray.push(currentItem);
-            count++;
-        }
-        const joinedKeywordSetArray = keywordSetArray.slice(1).map(keywordSet => {
-            return keywordSet.join(' ');
-        });
-    
-        return joinedKeywordSetArray;
-    };
+    const splitKeywords = keyword.split(' ');
+    let keywordSetArray = [];
+    let n = splitKeywords.length;
+    let maxLength = Math.pow(2, n) - 1;
+    let count = 0;
+    while (count !== maxLength + 1) {
+        let currentIndexArray = decimalToBinary(count);
+        let filledArray = zeroFiller(currentIndexArray, splitKeywords);
+        let currentItem = arrSieve(splitKeywords, filledArray);
+        keywordSetArray.push(currentItem);
+        count++;
+    }
+    const joinedKeywordSetArray = keywordSetArray.slice(1).map(keywordSet => {
+        return keywordSet.join(' ');
+    });
+
+    return joinedKeywordSetArray;
+};
 
 const nullArray = n => {
     let res = [];
@@ -55,8 +54,5 @@ const zeroFiller = (arr1, arr2) => {
 };
 
 module.exports = {
-    arrSieve,
-    decimalToBinary,
-    zeroFiller,
     getSets
 };

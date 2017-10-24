@@ -1,9 +1,6 @@
-const {
-    arrSieve,
-    decimalToBinary,
-    zeroFiller,
-    getSets
-} = require('../helpers');
+const _ = require('underscore');
+
+const { getSets } = require('../helpers');
 
 const getKeywordSets = (topicsKeywords) => {
     const keywordSets = topicsKeywords.map(topicKeywords => {
@@ -19,13 +16,14 @@ const getKeywordSets = (topicsKeywords) => {
         });
         return _.flatten(keywordsRelevanceArray);
     });
+    // console.log(keywordSets);
     return keywordSets;
-}
+};
 
-const formulateInsertionSchema = (keywordSets) => {
+const formulateInsertionSchema = ( topicKeywordSets, threadKeywordSets ) => {
     let insertionSchema = [];
-    keywordSets.forEach((topicKeywords,i) => {
-        threadTextAndId2.forEach((threadKeywords) => {
+    topicKeywordSets.forEach((topicKeywords,i) => {
+        threadKeywordSets.forEach((threadKeywords) => {
             let topicKeywordsText = _.pluck(topicKeywords,'text');
             let threadKeywordsText = _.pluck(threadKeywords,'text');
             let intersection = _.intersection(topicKeywordsText,threadKeywordsText);
@@ -34,6 +32,6 @@ const formulateInsertionSchema = (keywordSets) => {
             }
         });
     });
-}
+};
 
-module.exports = { getKeywordSets };
+module.exports = { getKeywordSets, formulateInsertionSchema };
