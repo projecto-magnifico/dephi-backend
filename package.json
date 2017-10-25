@@ -9,6 +9,8 @@
     "lint": "eslint ./",
     "lint-fix": "npm run lint -- --fix",
     "precommit" : "npm test"
+    "test-db": "psql -f ./data/seedTest.sql && NODE_ENV=test mocha ./spec/*",
+    "start": "NODE_ENV=test nodemon server.js"    
   },
   "repository": {
     "type": "git",
@@ -22,10 +24,28 @@
   },
   "homepage": "https://github.com/projecto-magnifico/dephi-backend#readme",
   "dependencies": {
+
+    "async": "^2.5.0",
+    "axios": "^0.16.2",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",    
     "chai": "^4.1.2",
     "eslint": "^4.9.0",
     "husky": "^0.14.3",
     "mocha": "^4.0.1",
-    "underscore": "^1.8.3"
-  }
+    "pg-promise": "^7.0.3",    
+    "power-set-x": "^1.5.0",
+    "string-similarity": "^1.2.0",
+    "supertest": "^3.0.0",    
+    "underscore": "^1.8.3",
+    "watson-developer-cloud": "^2.40.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/projecto-magnifico/dephi-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/projecto-magnifico/dephi-backend/issues"
+  },
+  "homepage": "https://github.com/projecto-magnifico/dephi-backend#readme"
 }
