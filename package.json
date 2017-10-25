@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./spec/*.spec.js",
+    "test": "mocha ./lambda/spec/*.spec.js",
     "posttest": "npm run lint",
     "lint": "eslint ./",
     "lint-fix": "npm run lint -- --fix",
