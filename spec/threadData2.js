@@ -784,7 +784,7 @@ const threadData = {
 const threadTextAndId2 = Object.keys(threadData).map(key => {
     return threadData[key].keywords.map(keyword => {
         return {
-            text: keyword.text,
+            text: keyword.text.toLowerCase(),
             id: key
         };
     });

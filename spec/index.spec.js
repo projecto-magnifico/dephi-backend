@@ -13,6 +13,6 @@ describe('getKeywordSets', () => {
 
 describe('formulateInsertionSchema', () => {
     it('converts an array of arrays into', () => {
-        expect(formulateInsertionSchema(keywordSets, threadTextAndId2)).to.eql();
+        expect(formulateInsertionSchema(keywordSets, threadTextAndId2)).to.eql([]);
     });
 });
