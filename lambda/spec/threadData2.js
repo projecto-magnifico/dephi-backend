@@ -1,5 +1,5 @@
 const threadData = {
-    '0': {
+    '1': {
         'articles': [
             {
                 'author': 'ERICA WERNER',
@@ -150,7 +150,7 @@ const threadData = {
         ],
         'score': 20
     },
-    '1': {
+    '2': {
         'articles': [
             {
                 'author': 'BBC News',
@@ -233,7 +233,7 @@ const threadData = {
         ],
         'score': 9
     },
-    '2': {
+    '3': {
         'articles': [
             {
                 'author': 'Maegan Vazquez, CNN',
@@ -340,7 +340,7 @@ const threadData = {
         ],
         'score': 15
     },
-    '3': {
+    '4': {
         'articles': [
             {
                 'author': null,
@@ -407,7 +407,7 @@ const threadData = {
         ],
         'score': 15
     },
-    '4': {
+    '5': {
         'articles': [
             {
                 'author': 'Reuters',
@@ -490,7 +490,7 @@ const threadData = {
         ],
         'score': 14
     },
-    '5': {
+    '6': {
         'articles': [
             {
                 'author': 'Jon Stone',
@@ -609,7 +609,7 @@ const threadData = {
         ],
         'score': 28
     },
-    '6': {
+    '7': {
         'articles': [
             {
                 'author': null,
@@ -684,7 +684,7 @@ const threadData = {
         ],
         'score': 13
     },
-    '7': {
+    '8': {
         'articles': [
             {
                 'author': 'Reuters Editorial',
